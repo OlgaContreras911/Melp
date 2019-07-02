@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <title>Melp</title>
+  </head>
+
+  <body>
+    <nav class="navbar nav-background">
+      <a class="navbar-brand">Melp</a>
+    </nav>
+
+    <section class="button_container">
+      <div class="headerMessageContainer">
+        <h1 class="headerMessage">
+          Restaurantes a tu alcance.... Da click e inicia
+        </h1>
+      </div>
+      <div class="buttons">
+        <h2>Orden por Nombre:</h2>
+        <button class="btn btn-dark" id="orderAsName">Ascendente</button>
+        <button class="btn btn-dark" id="orderDesName">Descendente</button>
+
+        <h2>Orden por Rating:</h2>
+        <button class="btn btn-dark" id="orderAsRtg">Ascendente</button>
+        <button class="btn btn-dark" id="orderDesRtg">Descendente</button>
+      </div>
+    </section>
+
+    <section class="printContainer">
+      <p
+        class="principalContainer mx-auto"
+        style="width: 300px"
+        id="printData"
+      ></p>
+    </section>
+    <footer class="footer_style">
+      <p>Lo que necesitas... al alcance</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

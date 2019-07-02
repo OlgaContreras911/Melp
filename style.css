@@ -1,0 +1,33 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  background-color: rgb(204, 185, 185);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  text-align: center !important;
+  background-color: rgb(204, 185, 185) !important;
+}
+.principalContainer {
+  text-align: center;
+}
+
+.nav-background {
+  background-color: black;
+  color: blanchedalmond;
+}
+.footer_style {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: blanchedalmond;
+  text-align: center;
+}
+.color-white {
+  background-color: white;
+}
